@@ -6,5 +6,5 @@ yMove = lerp(yMove, (global.down - global.up)*spd, 0.1);
 x += xMove;
 y += yMove;
 
-x = clamp(x, 0, room_width - sprite_width);
-y = clamp(y, 0, room_height - sprite_height);
+x = clamp(x, 8, room_width - 8);
+y = clamp(y, 8, room_height - 8);

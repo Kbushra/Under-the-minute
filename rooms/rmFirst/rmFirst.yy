@@ -1,23 +1,25 @@
 {
   "$GMRoom":"v1",
   "%Name":"rmFirst",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rmFirst/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_79419CCA","path":"rooms/rmFirst/rmFirst.yy",},
     {"name":"inst_604D4D45","path":"rooms/rmFirst/rmFirst.yy",},
-    {"name":"inst_2C34778A","path":"rooms/rmFirst/rmFirst.yy",},
-    {"name":"inst_6DF69B44","path":"rooms/rmFirst/rmFirst.yy",},
     {"name":"inst_6B7E1C4E","path":"rooms/rmFirst/rmFirst.yy",},
+    {"name":"inst_623266F1","path":"rooms/rmFirst/rmFirst.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Important","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_2C34778A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C34778A","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-16.0,"y":-16.0,},
-        {"$GMRInstance":"v2","%Name":"inst_6DF69B44","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DF69B44","objectId":{"name":"objGeneral","path":"objects/objGeneral/objGeneral.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_6B7E1C4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B7E1C4E","objectId":{"name":"objEnterCut","path":"objects/objEnterCut/objEnterCut.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_623266F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_623266F1","objectId":{"name":"objHole","path":"objects/objHole/objHole.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objHole","path":"objects/objHole/objHole.yy",},"propertyId":{"name":"targX","path":"objects/objHole/objHole.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"96",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objHole","path":"objects/objHole/objHole.yy",},"propertyId":{"name":"targY","path":"objects/objHole/objHole.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"256",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objHole","path":"objects/objHole/objHole.yy",},"propertyId":{"name":"targRoom","path":"objects/objHole/objHole.yy",},"resource":{"name":"rmLoop","path":"rooms/rmLoop/rmLoop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmLoop",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":96.0,},
       ],"layers":[],"name":"Important","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_79419CCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79419CCA","objectId":{"name":"objDecoClock","path":"objects/objDecoClock/objDecoClock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":224.0,"y":96.0,},

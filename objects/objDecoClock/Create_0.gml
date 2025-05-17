@@ -5,4 +5,5 @@ for (var i = 0; i < 3; i++)
 	hand.image_xscale = image_xscale;
 	hand.image_yscale = image_yscale;
 	hand.depth = depth - 1;
+	hand.totalSpd = totalSpd;
 }

@@ -1,0 +1,1 @@
+for (var i = 0; i < 3; i++) { hand[i].totalSpd = totalSpd; }
