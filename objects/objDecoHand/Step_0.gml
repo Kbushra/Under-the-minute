@@ -1,0 +1,1 @@
+image_angle -= spd * totalSpd * delta_time / 1000000;
