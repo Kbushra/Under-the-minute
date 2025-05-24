@@ -19,7 +19,6 @@
   "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"03dd1966-7b6e-4a4e-b38f-51f055d24f9a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"03dd1966-7b6e-4a4e-b38f-51f055d24f9a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"aee51f08-7fa1-47fd-a567-83ce137199d3","blendMode":0,"displayName":"default","isLocked":false,"name":"aee51f08-7fa1-47fd-a567-83ce137199d3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprDecoClock",

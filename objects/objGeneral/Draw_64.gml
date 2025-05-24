@@ -1,1 +1,3 @@
+if room == rmIntro { exit; }
+
 draw_sprite_ext(sprWhite, 0, 0, 0, 683, 384, 0, c_black, 0.5);

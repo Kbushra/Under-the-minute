@@ -1,1 +1,1 @@
-for (var i = 0; i < 3; i++) { hand[i].totalSpd = totalSpd; }
+for (var i = 0; i < 3; i++) { if hand[i] != -1 { hand[i].totalSpd = totalSpd; } }
