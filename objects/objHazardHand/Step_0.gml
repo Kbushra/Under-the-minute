@@ -1,4 +1,4 @@
-for (var count = 0; count < totalSpd; count++)
+for (var count = 0; count < abs(totalSpd); count++)
 {
 	image_angle -= spd * totalSpd * delta_time / 1000000;
 	_time += totalSpd * delta_time / 1000000;

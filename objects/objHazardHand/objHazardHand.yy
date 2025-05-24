@@ -9,8 +9,8 @@
   "name":"objHazardHand",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Mechanics",
+    "path":"folders/Objects/Mechanics.yy",
   },
   "parentObjectId":null,
   "persistent":false,
