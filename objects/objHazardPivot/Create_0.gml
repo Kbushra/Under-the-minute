@@ -1,3 +1,5 @@
+if rand_time { _time = random(43200); }
+
 for (var i = 0; i < 3; i++)
 {
 	if handnum != -1 && i != handnum { hand[i] = -1; continue; }

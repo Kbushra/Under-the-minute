@@ -9,3 +9,5 @@ for (var count = 0; count < abs(totalSpd); count++)
 	
 	if place_meeting(x, y, objPlayer) && !instance_exists(objTransition) { transition(1); }
 }
+
+if totalSpd == 0 && place_meeting(x, y, objPlayer) && !instance_exists(objTransition) { transition(1); }
