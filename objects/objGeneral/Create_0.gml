@@ -3,9 +3,10 @@ if os_browser != browser_not_a_browser { window_set_size(1366, 768); }
 randomize();
 
 global.controls = true;
+global.flagNum = 4;
 
 if variable_global_exists("respawn")
-{	
+{
 	transition(-1);
 	objTransition.image_index = 4;
 	
@@ -16,4 +17,13 @@ if variable_global_exists("respawn")
 	exit;
 }
 
-for (var i = 0; i < 2; i++) { global.flag[i] = false; }
+ini_open("Under-Minute");
+
+global.resX = ini_read_real("Location", "Spawn X", 0);
+global.resY = ini_read_real("Location", "Spawn Y", 0);
+global.resRoom = ini_read_real("Location", "Spawn Room", rmIntro);
+global.act = ini_read_string("Location", "Spawn Name", "Act 1 - The Sleep");
+
+for (var i = 0; i < global.flagNum; i++) { global.flag[i] = ini_read_real("Flags", $"Flag {i+1}", false); }
+	
+ini_close();

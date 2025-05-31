@@ -1,5 +1,7 @@
 if !global.controls { exit; }
 
+if global.sprint { spd = 5; } else { spd = 2; }
+
 xMove = lerp(xMove, (global.right - global.left)*spd, 0.1);
 yMove = lerp(yMove, (global.down - global.up)*spd, 0.1);
 

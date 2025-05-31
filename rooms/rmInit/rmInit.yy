@@ -6,8 +6,8 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2C34778A_1","path":"rooms/rmInit/rmInit.yy",},
     {"name":"inst_6DF69B44_1","path":"rooms/rmInit/rmInit.yy",},
+    {"name":"inst_2C34778A_1","path":"rooms/rmInit/rmInit.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -19,8 +19,8 @@
   ],
   "name":"rmInit",
   "parent":{
-    "name":"Debug",
-    "path":"folders/Rooms/Debug.yy",
+    "name":"Misc",
+    "path":"folders/Rooms/Misc.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -27,5 +27,11 @@ function transition(type)
 			visible = false;
 			instance_create_layer(x, y, layer, objSplat);
 		}
+		
+		if global.flag[3]
+		{
+			if instance_exists(objCPU) { instance_destroy(objCPU); }
+			instance_create_layer(x, y, "Important", objCPU, { lines: -1 });
+		}
 	}
 }

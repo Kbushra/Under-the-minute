@@ -13,6 +13,10 @@
     {"name":"inst_61957267_1","path":"rooms/rmPowerR/rmPowerR.yy",},
     {"name":"inst_542089D0_1","path":"rooms/rmPowerR/rmPowerR.yy",},
     {"name":"inst_2108A74B_1","path":"rooms/rmPowerR/rmPowerR.yy",},
+    {"name":"inst_37048C91","path":"rooms/rmPowerR/rmPowerR.yy",},
+    {"name":"inst_42592F48","path":"rooms/rmPowerR/rmPowerR.yy",},
+    {"name":"inst_72D6125A","path":"rooms/rmPowerR/rmPowerR.yy",},
+    {"name":"inst_50D22F3A","path":"rooms/rmPowerR/rmPowerR.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,6 +41,10 @@
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_C03935A_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C03935A_2_1","objectId":{"name":"objDecoClock","path":"objects/objDecoClock/objDecoClock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_37048C91","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37048C91","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_42592F48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_42592F48","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_72D6125A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72D6125A","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":256.0,},
+        {"$GMRInstance":"v2","%Name":"inst_50D22F3A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50D22F3A","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":22,"TileCompressedData":[
           4,0,2,0,2,-6,0,-2,2,-6,0,8,2,0,2,0,0,1073741829,0,1073741829,-6,0,-2,1073741829,-6,0,8,1073741829,0,
@@ -57,8 +65,8 @@
   ],
   "name":"rmPowerR",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Act 1",
+    "path":"folders/Rooms/Act 1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

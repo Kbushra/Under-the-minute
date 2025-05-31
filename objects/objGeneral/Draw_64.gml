@@ -1,4 +1,4 @@
-if room == rmInit { room_goto(rmHub); }
 if room == rmIntro { exit; }
 
-draw_sprite_ext(sprWhite, 0, 0, 0, window_get_width(), window_get_height(), 0, c_black, 0.5);
+if !instance_exists(objCPU)
+{ draw_sprite_ext(sprWhite, 0, 0, 0, display_get_gui_width(), display_get_gui_height(), 0, c_black, 0.5); }

@@ -30,8 +30,8 @@
   ],
   "name":"rmDefault",
   "parent":{
-    "name":"Debug",
-    "path":"folders/Rooms/Debug.yy",
+    "name":"Misc",
+    "path":"folders/Rooms/Misc.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
