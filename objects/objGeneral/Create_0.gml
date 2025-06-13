@@ -2,6 +2,7 @@ if os_browser != browser_not_a_browser { window_set_size(1366, 768); }
 
 randomize();
 
+global.stage = 0;
 global.controls = true;
 global.flagNum = 4;
 
@@ -16,6 +17,8 @@ if variable_global_exists("respawn")
 	
 	exit;
 }
+
+global.musPos = 0;
 
 ini_open("Under-Minute");
 

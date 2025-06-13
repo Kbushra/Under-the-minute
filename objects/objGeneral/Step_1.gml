@@ -1,5 +1,4 @@
 if room == rmInit { room_goto(rmMenu); }
-show_debug_message(room);
 
 var newX = lerp(camera_get_view_x(view_camera[0]), objPlayer.x - 391.5, 0.2);
 var clampX = clamp(newX, 0, room_width - 683);

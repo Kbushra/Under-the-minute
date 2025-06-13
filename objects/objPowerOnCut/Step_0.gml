@@ -13,5 +13,7 @@ if alpha > 0.8
 {
 	camera_set_view_pos(view_camera[0], 0, 0);
 	instance_create_layer(x, y, "Important", objCPU);
+	global.stage = 4;
+	audio_resume_all();
 	instance_destroy();
 }

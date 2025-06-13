@@ -7,9 +7,18 @@ if image_index == 1 && !stop
 	stop = true;
 	
 	var targHand = targPivot.hand[targClock.handnum];
-	if targHand._time >= targClock._time - targHand.err && targHand._time <= targClock._time + targHand.err && targWire != -1
-	{ instance_destroy(targWire); targWire = -1; }
 	
-	show_debug_message($"Danger time = {targHand._time}, Requested time = {targClock._time}");
+	if targHand._time >= targClock._time - targHand.err && targHand._time <= targClock._time + targHand.err && targWire != -1
+	{
+		targClock.image_index = 2;
+		instance_destroy(targWire);
+		targWire = -1;
+	}
+	else { targClock.image_index = 3; }
 }
-else if image_index == 0 && stop { targPivot.totalSpd = normal; stop = false; }
+else if image_index == 0 && stop
+{
+	targClock.image_index = 1;
+	targPivot.totalSpd = normal;
+	stop = false;
+}
